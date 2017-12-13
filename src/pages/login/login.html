@@ -1,0 +1,22 @@
+<ion-content class="bg-image no-scroll">
+  <img src="assets/imgs/logo-appstream.png" class="logo">
+  <ion-list class="list" inset>
+    <ion-item class="item">
+      <ion-label class="label" stacked>Username</ion-label>
+      <ion-input type="text" placeholder="Enter Username"></ion-input>
+    </ion-item>
+    <ion-item class="item">
+      <ion-label class="label" stacked>Password</ion-label>
+      <ion-input type="password" placeholder="Enter Password"></ion-input>
+    </ion-item>
+  </ion-list>
+  <p class="text">Forget your password?</p>
+  <div text-center>
+    <button class="btn-login" (click)="login()" ion-button color="secondary" round>Login</button>
+  </div>
+  <div text-center>
+    <button class="btn-sign-up" ion-button round outline color="mywhite">Sign Up</button>
+  </div>
+  <img src="assets/imgs/facebook.png" class="btn-fb">
+  <img src="assets/imgs/twitter.png" class="btn-twi">
+</ion-content>

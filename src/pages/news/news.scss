@@ -1,0 +1,66 @@
+page-news {
+  .header-image {
+    background-image: url('../assets/imgs/newsfeed.jpg');
+    height: 50vh;
+  }
+  .main-content {
+    padding: 20px;
+    padding-bottom: 56px;
+    background-color: white;
+  }
+  .scroll-content {
+    padding-top: 0!important;
+  }
+  ion-header {
+    -webkit-backdrop-filter: blur(8px);
+  }
+  ion-navbar {
+    opacity: 0.4;
+    box-shadow: 0px 1px 13px 1px rgba(0, 0, 0, 0.77)
+  }
+  .news-box {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 2vh;
+  }
+  .details {
+    font-family: open-sans;
+    margin-top: 5px;
+  }
+  .bottom-info {
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+  }
+  .avatar {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .blog {
+    font-family: open-sans;
+    font-size: 12px;
+    color: map-get($map: $colors, $key: primary);
+    position: absolute;
+    left: 10vw;
+    top: -3px;
+  }
+  .tag {
+    font-family: open-sans;
+    color: #b7c4cb;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    right: 8vw;
+    margin-top: 8px;
+  }
+  .dot {
+    position: absolute;
+    font-size: 10px;
+    right: 24vw;
+    top: 12px;
+  }
+}

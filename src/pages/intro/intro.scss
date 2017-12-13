@@ -1,0 +1,26 @@
+page-intro {
+  .icon {
+    font-size: 120px;
+    color: #ebebeb;
+  }
+  h1 {
+    color: #ebebeb;
+  }
+  p {
+    font-family: open-sans;
+    font-size: 14px;
+    color: #ebebeb;
+  }
+  .bg-image {
+    background-image: url('../assets/imgs/bg2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .swiper-pagination-bullet-active {
+    background: white;
+  }
+  .padding {
+    padding: 100px;
+  }
+}

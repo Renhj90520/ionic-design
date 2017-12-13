@@ -1,0 +1,129 @@
+<!--
+  Generated template for the ProfilePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>profile</ion-title>
+    <ion-buttons start>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button icon-only style="color:#ebebeb;" (click)="showToast('bottom')">
+        <ion-icon name="heart-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <div class="header-parent">
+    <img src="assets/imgs/bg2.jpg" alt="">
+    <div class="header-social">
+      <img src="assets/imgs/love-btn.png" style="width:18%; margin-right:3vw;" alt="">
+      <img src="assets/imgs/friend-btn.png" style="width:40%;" alt="">
+      <img src="assets/imgs/chat-btn.png" style="width:18%; margin-left:3vw;" alt="">
+    </div>
+    <div class="profile">
+      <img src="assets/imgs/profile-pic.png" alt="">
+    </div>
+    <div class="title-name">
+      <h3>Jeanette Rusell</h3>
+    </div>
+    <div class="profile-location">
+      <p class="location">
+        <i class="fa fa-map-marker location-icon"></i>
+        &nbsp; Singapore
+      </p>
+    </div>
+    <div class="counter">
+      <ion-row>
+        <ion-col>
+          <p class="count">472</p>
+          <p class="source">Followers</p>
+        </ion-col>
+        <ion-col>
+          <p class="count">160</p>
+          <p class="source">Posts</p>
+        </ion-col>
+        <ion-col>
+          <p class="count">860</p>
+          <p class="source">Following</p>
+        </ion-col>
+      </ion-row>
+    </div>
+  </div>
+  <ion-slides autoplay="2500" loop="true" slidesPerView="4" class="slides">
+    <ion-slide>
+      <img src="assets/imgs/profile-slide1.png" alt="" class="slide-img">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/imgs/profile-slide2.png" alt="" class="slide-img">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/imgs/profile-slide3.png" alt="" class="slide-img">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/imgs/profile-slide4.png" alt="" class="slide-img">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/imgs/profile-slide5.png" alt="" class="slide-img">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/imgs/profile-slide6.png" alt="" class="slide-img">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/imgs/profile-slide7.png" alt="" class="slide-img">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/imgs/profile-slide8.png" alt="" class="slide-img">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/imgs/profile-slide9.png" alt="" class="slide-img">
+    </ion-slide>
+  </ion-slides>
+  <div style="position:relative;" padding>
+    <img src="assets/imgs/live-profile.png" width="15%" alt="">
+    <div style="position:absolute;margin-top:-7vh;margin-left:16vw;">
+      <h6>Sarah Fanadery</h6>
+      <p style="font-family:open-sans;font-size:12px;color:#0091ca;">24 Oct. at 11:30</p>
+    </div>
+    <div style="position:absolute;top:30px;right:16px;">
+      <button style="color:#0091ca;" ion-button round outline medium>Follow</button>
+    </div>
+    <p style="font-family:open-sans;font-size:18px;">Cheap flights from Budapest to Kuala Lumpur for $359 round trip!</p>
+    <img src="assets/imgs/tokyo.png" alt="">
+  </div>
+  <p padding style="font-family:open-sans;padding-top:0;font-size:16px;margin-top:0px;">The sun is a daily reminder that we too can rise from the darkness, that we too can shine our own lignt.</p>
+  <div class="operation" padding>
+    <ion-row>
+      <ion-col col-4>
+        <img src="assets/imgs/share.png" alt="">
+      </ion-col>
+      <ion-col col-4>
+        <img src="assets/imgs/like.png" style="margin-left:14vw;" alt="">
+      </ion-col>
+      <ion-col col-4>
+        <img src="assets/imgs/message.png" style="margin-left:10vw;" alt="">
+      </ion-col>
+    </ion-row>
+
+    <div style="position:absolute;width:100%;top:0px;">
+      <ion-row>
+        <ion-col col-4>
+          <p class="share-num" style="margin-left:10vw;">4</p>
+        </ion-col>
+        <ion-col col-4>
+          <p class="share-num" style="margin-left:20vw;">17</p>
+        </ion-col>
+        <ion-col col-4>
+          <p class="share-num" style="margin-left:14vw;">12</p>
+        </ion-col>
+      </ion-row>
+    </div>
+  </div>
+</ion-content>

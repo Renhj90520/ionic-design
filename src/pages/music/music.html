@@ -1,0 +1,88 @@
+<!--
+  Generated template for the MusicPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>
+      <p style="font-family:open-sans; font-size:18px;">Playlist</p>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="pop($event)">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h3>Genre & Modes</h3>
+  <button class="right" ion-button small clear>
+    <p style="font-family:open-sans; font-size:15px">See all</p>
+  </button>
+  <ion-row>
+    <ion-col>
+      <img src="assets/imgs/audio-1.jpg" alt="">
+      <h4 class="track">Trending</h4>
+      <p class="tracks">52 Tracks</p>
+    </ion-col>
+    <ion-col>
+      <img src="assets/imgs/audio-2.jpg" alt="">
+      <h4 class="track">Workout</h4>
+      <p class="tracks">11 Tracks</p>
+    </ion-col>
+  </ion-row>
+  <hr>
+  <div class="box">
+    <img src="assets/imgs/audio-3.jpg" alt="">
+    <div class="player">
+      <h4>Alternatives</h4>
+      <p class="tracks">137 Tracks</p>
+    </div>
+  </div>
+  <hr>
+  <ion-row>
+    <ion-col>
+      <img src="assets/imgs/audio-4.jpg" alt="">
+      <h4 class="track">Travel</h4>
+      <p class="tracks">52 Tracks</p>
+    </ion-col>
+    <ion-col>
+      <img src="assets/imgs/audio-5.jpg" alt="">
+      <h4 class="track">Classical</h4>
+      <p class="tracks">11 Tracks</p>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <img src="assets/imgs/audio-6.jpg" alt="">
+      <h4 class="track">Country</h4>
+      <p class="tracks">52 Tracks</p>
+    </ion-col>
+    <ion-col>
+      <img src="assets/imgs/audio-7.jpg" alt="">
+      <h4 class="track">Hip-Hop</h4>
+      <p class="tracks">11 Tracks</p>
+    </ion-col>
+  </ion-row>
+  <div class="box">
+    <img src="assets/imgs/audio-8.jpg" alt="">
+    <div class="player">
+      <h4>Romance</h4>
+      <p class="tracks">264 Tracks</p>
+    </div>
+  </div>
+  <div class="box">
+    <img src="assets/imgs/play.png" alt="" class="play">
+    <img src="assets/imgs/dots.png" alt="" class="play-menu">
+    <div class="playing">
+      <p class="title">Keep Your Head Up</p>
+      <p class="subtitle">Ben Howard - Every Kindom</p>
+    </div>
+  </div>
+</ion-content>
